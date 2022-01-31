@@ -1,0 +1,427 @@
+/*Inicio do Site*/
+#inicio-do-site {
+    text-align: center;
+    font-size: 25px;
+    margin-top: -34px;
+    margin-left: -8px;    
+    margin-right: -8px;
+    font-family:cursive;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+body {
+   
+    font-family: cursive;
+    background-image: url(https://i.pinimg.com/originals/54/d7/9b/54d79b649cc52858c46f8f2af4f96853.jpg);
+    background-size: 3200px;
+    background-position-y: -120px;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+    
+}
+#titulo {
+    margin-right: 150px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0em 0.1em rgb(170, 22, 22);
+}
+
+#inicio {
+    margin-left: -160px;
+    margin-right: 100px;
+    color: white;
+    font-size: 30px;
+    opacity: 0.05;
+}
+#inicio:hover {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    opacity: 1;
+}
+#oque {
+    margin-right: 100px;
+    color: white;
+    font-size: 30px;
+    opacity: 0.05;
+}
+#oque:hover {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    opacity: 1;
+}
+#config {
+    margin-right: 100px;
+    color: white;
+    font-size: 30px;
+    opacity: 0.05;
+}
+#config:hover {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    opacity: 1;
+}
+#sobre {
+    margin-right: 1px;
+    color: white;
+    font-size: 30px;
+    opacity: 0.05;
+}
+#sobre:hover {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    opacity: 1;
+}
+
+#sair {
+    display: inline;
+    margin-left:1295px;
+    
+    color: rgb(175, 51, 51);
+}
+#relogio {  
+    border: 5px solid #f7fdf9;
+    border-radius: 100%;
+    height: 90px;
+    width: 90px;
+    margin-left: 1192px;
+    margin-top: -950px;
+    margin-bottom: 50px;
+    animation: girando 1s ease-in-out 0s infinite alternate;
+    position: relative;
+
+}
+    @keyframes girando {
+        from {
+        transform: rotate(10deg);
+        }
+        to {
+        transform: rotate(220deg);
+        }
+    }
+/**/
+
+/*Add item de sua rotina*/
+#texto-rotina{
+    font-size: 50px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.486);
+    text-shadow: 0.1em 0.1em 0.1em black;
+    margin-top: 5px;
+}
+#rotina {
+    font-size: 25px;
+    font-family: cursive;
+    border-radius: 10px;
+    background-color: rgba(64, 3, 8, 0.363);
+    text-shadow: 0em 0em 0.3em rgb(255, 255, 255);
+    padding-right: 210px;
+    
+}
+#botao-rotina {
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    background-color: rgba(177, 53, 53, 0.479);
+    text-shadow: 0em 0em 0.3em rgb(255, 255, 255);
+}
+
+#lista {
+    font-size: 28px;
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.534);
+    text-shadow: 0.2em 0.1em 0.2em black;
+    border: 1.2px solid black;
+    border-radius: 8px;
+    
+    
+}
+#rotina-borda {
+    padding: 28px;
+    border-radius: 19px;
+    margin: 0 auto;
+    min-width: 301px;
+    max-width: 910px;
+    text-align: left;
+    font-size: 1.5em;
+    box-shadow: 0 2px 4px 0 rgba(255, 0, 0, 0.699), 0 25px 50px 0 rgba(255, 255, 255, 0.1)
+}
+#hora {
+    font-family: cursive;
+    color: white;
+    margin-left: 1200px;
+    text-shadow: 0.2em 0.2em 0.1em black;
+    margin-top: -50px;
+}
+/**/
+
+/*cronometro*/
+
+#cronometro {
+    font-family: cursive;
+    font-size: 80px;
+    text-align: center;
+}
+#numero-cronometro{
+    margin-top: 20px;
+    margin-bottom: -60px;
+    background-color: rgba(158, 47, 47, 0.322);
+    border-radius: 40px;
+    margin-left: 390px;
+    margin-right: 380px;
+    border: 4px solid #f7fdf9ad;
+    text-shadow: 0em 0em 0.3em rgb(255, 255, 255);
+}
+button {
+    font-family: cursive;
+    font-size: 30px;
+    border-radius: 8px;
+    background-color: rgba(105, 23, 23, 0.288);
+    text-shadow: 0em 0em 0.3em rgb(255, 255, 255);
+}
+#botoes-do-cronometro {
+    margin-top: 30px;
+}
+#texto-cronometro {
+    font-size: 50px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.514);
+    text-shadow: 0.1em 0.1em 0.1em black;
+    margin-top: 15px;
+}
+
+#texto-relogio {
+    font-size: 50px;
+    margin-right: 1120px;
+    color: rgba(255, 255, 255, 0.466);
+    text-shadow: 0.1em 0.1em 0.1em black;
+    margin-top: 15px;
+}
+
+#imagem-relogio {
+    
+    filter: contrast(250%);
+    width: 400px;
+    height: 400px;
+    margin-right: 900px;
+}
+
+#nome {
+    display: inline;
+    border-radius: 50px;
+    background-color: rgba(128, 18, 18, 0.719);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1150px;
+    opacity: 0.05;
+}
+#nome:hover {
+    opacity: 1;
+
+}
+#ver-nome {
+  position: fixed;
+  margin-top: 420px; 
+  font-size: 40px;
+  margin-left: -1328px;
+  font-family:cursive;
+  text-shadow: 0em 0.1em 0.3em rgb(255, 0, 0);
+  color: white;
+}
+#texto-sobre-relogio {
+    font-size: 20px;
+    margin-right: 1px;
+    color: rgba(255, 255, 255, 0.466);
+    text-shadow: 0.1em 0.1em 0.1em black;
+    margin-top: -356px;
+    float: right;
+    position: absolute;
+    right: 0px;
+    width: 890px;
+}
+@media only screen and (max-device-width: 768px) {
+    header {
+        width: 100%;
+        padding: 0;
+    }
+    }
+
+
+/*/config de cor/*/
+#configuraçoes-cor {
+    font-size: 38px;
+    margin-right: 910px;
+    color: rgba(255, 255, 255, 0.467);
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.preto{
+    background: black;
+    
+}
+        
+.branco{
+     background:#fff;
+        
+}
+.verde{
+    background: green;
+}
+.vermelho{
+    background: red;
+}
+.azul {
+    background: blue;
+}
+
+.rosa {
+    background:#FFCBDB;
+}
+.roxo {
+    background:#993399;
+}
+.cinza {
+    background: #808080;
+}
+.amarelo {
+    background: #FFFF00	;
+}
+.verde-claro {
+    background: #96e096;
+}
+.dourado { 
+    background: #DAA520;
+}
+.laranja { 
+    background: #FFA500;
+}
+.pretoebranco {
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 6%, rgba(0,0,0,1) 6%, rgba(0,0,0,1) 35%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 62%, rgba(15,15,15,1) 63%, rgba(0,0,0,1) 91%, rgba(255,255,255,1) 92%);
+    
+}
+.azulebranco {
+    background: rgb(21,0,255);
+    background: linear-gradient(270deg, rgba(21,0,255,1) 46%, rgba(255,255,255,1) 56%);
+}
+.verdeebranco {
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 17%, rgba(25,150,29,1) 49%, rgba(255,255,255,1) 74%);
+}
+/**/
+
+/*modal*/
+.modal {
+display: none;
+}
+ 
+.modal:target {
+display: flex;
+}
+
+.modal {
+text-align: left;
+backdrop-filter: blur(2px);
+position: fixed;
+top: 0;
+left: 0;
+width:92%;
+height: 100%;
+background-color: rgba(114, 31, 31, 0.5);       
+padding: 2rem;
+}
+
+.modal:target {
+justify-content: space-around;
+align-items: center;
+}
+        
+.modal__overlay {
+position: absolute;
+height: 100%;
+width: 100%;
+left: 0;
+top: 0;
+cursor: default;
+}
+     
+.modal__content {
+min-width: 480px;
+position: relative;
+background-color: #9e1e1e8a;
+padding: 2rem;
+border-radius: 20px;
+}
+     
+.modal__close {
+color: initial;
+text-decoration: none;
+position: absolute;
+top: -44px;
+right: 0;
+padding: 0.5rem;
+display: inline-block;
+padding-right: 50px;
+}
+#nome-samuel {
+font-size: 30px;
+}
+
+#eu {
+    font-size: 20px;
+}    
+.foto-criador {
+    height: 210px;
+    display: inline;
+    width: 200px;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    position: relative;
+    float: right;
+    margin-left: 20px;
+}
+#id-canal {
+
+    font-family: cursive;
+    font-size: 15px;
+    color: rgb(131, 51, 51);
+    opacity: 0.8;
+}
+#id-canal:hover {
+    opacity: 1;
+    color: rgb(173, 74, 74);
+}
+/**/
+
+/*canvas*/
+#mexer-relogio {
+    margin-left: 30px;
+    margin-top: 19px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    position:relative; 
+    width:95px;
+}
+/**/
+/*config de cor */
+#cor {
+    border-radius: 1px;
+    opacity: 0.1;
+}
+#cor:hover {
+    opacity: 0.5
+}
+/**/
+
+/*config de audio*/
+#configuraçoes-musica {
+    font-size: 38px;
+    margin-right: 850px;
+    color: rgba(255, 255, 255, 0.467);
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.musicas {
+    margin-left: 13px;
+    color: black;
+}

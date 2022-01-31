@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em 0.1em rgb(255, 0, 0);
+    font-family: cursive;
+
+}
+body {
+    background-image: url(https://i.pinimg.com/originals/54/d7/9b/54d79b649cc52858c46f8f2af4f96853.jpg);
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 0em 0em 0.1em rgb(255, 255, 255);
+    font-family: cursive;
+    text-shadow: 0.1em 0.1em 0.1em rgb(255, 0, 0);
+}
+.voltar-ao-inicio {
+    text-decoration:none;
+    
+    padding: 10px;
+    font-size: 30px;
+    background-color:#bd4545;
+    color: rgb(0, 0, 0);
+    border-radius: 60px;
+     
+}
+#button-cor {
+    margin-bottom: 20px;
+}
+#pergunta {
+    font-size: 20px;
+    color: rgb(247, 247, 247);
+    font-family: cursive;
+    text-shadow: 0.1em 0.1em 0.1em rgb(255, 0, 0);
+    
+}
+#quiz-quem-criou,
+#quiz-que-dia-criei,
+#quiz-oq-eu-perdi,
+#quiz-cor-do-site {
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.425);
+    font-family: cursive;
+    border-radius: 20px;
+}
+#perguntinhas {
+    margin-bottom: 20px;
+    margin-left: 450px;
+}
+#respostapergunta,
+#respostapergunta2,
+#respostapergunta3,
+#respostapergunta4 {
+    height: 25px;
+    width: 25px;
+    border-radius: 20px; 
+}

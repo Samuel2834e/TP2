@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/54/d7/9b/54d79b649cc52858c46f8f2af4f96853.jpg);
+}
+h1 {
+    font-size: 60px;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 0em 0em 0.1em rgb(255, 255, 255)
+}
+#login {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 520px;
+    margin-top: 100px;
+    font-family: cursive;
+    border: 8px solid rgb(0, 0, 0);  
+    border-radius: 40px;
+}
+#texto-login {
+    margin-left: -28px;
+    margin-top: 20px;
+    
+}
+#email {
+    margin-left: 2px;
+    margin-bottom: 20px;
+    
+}
+#button-login {
+    margin-left:80px;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.151);
+}
+#data-de-inicio {
+    color: white;
+    margin-top: 8%;
+    opacity: 0.5;
+}
