@@ -14,7 +14,7 @@ localStorage.getItem('');
 
 //-botao para levar ao site--
 document.getElementById("button-login").onclick = function () {
-    location.href = "http://127.0.0.1:5501/inicio.html";
+    location.href = "https://samuel2834e.github.io/TP2/inicio";
   };
   //--//
 
